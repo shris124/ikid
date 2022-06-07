@@ -13,6 +13,8 @@
 		9DE9632B2836E450000FD645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE963292836E450000FD645 /* Main.storyboard */; };
 		9DE9632D2836E451000FD645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9632C2836E451000FD645 /* Assets.xcassets */; };
 		9DE963302836E451000FD645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9632E2836E451000FD645 /* LaunchScreen.storyboard */; };
+		D279FB24284F8963001E238A /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279FB23284F8962001E238A /* QuestionViewController.swift */; };
+		D279FB26284F8981001E238A /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279FB25284F8981001E238A /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9DE9632C2836E451000FD645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE9632F2836E451000FD645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE963312836E451000FD645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D279FB23284F8962001E238A /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		D279FB25284F8981001E238A /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9DE963232836E450000FD645 /* AppDelegate.swift */,
 				9DE963252836E450000FD645 /* SceneDelegate.swift */,
 				9DE963272836E450000FD645 /* ViewController.swift */,
+				D279FB25284F8981001E238A /* AnswerViewController.swift */,
+				D279FB23284F8962001E238A /* QuestionViewController.swift */,
 				9DE963292836E450000FD645 /* Main.storyboard */,
 				9DE9632C2836E451000FD645 /* Assets.xcassets */,
 				9DE9632E2836E451000FD645 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				9DE963282836E450000FD645 /* ViewController.swift in Sources */,
 				9DE963242836E450000FD645 /* AppDelegate.swift in Sources */,
+				D279FB26284F8981001E238A /* AnswerViewController.swift in Sources */,
+				D279FB24284F8963001E238A /* QuestionViewController.swift in Sources */,
 				9DE963262836E450000FD645 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
